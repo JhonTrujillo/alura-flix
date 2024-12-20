@@ -1,0 +1,45 @@
+.header{
+    background-color: rgb(61, 60, 60);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #2271D1;  
+    
+}
+
+.header-title{
+    color: #2271D1;
+    padding: 10px;
+    
+}
+
+.header-botones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;  
+    gap: 20px;
+    
+}
+
+.botones-home{
+    background-color: black;
+    border: 2px solid #2271D1;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: #2271D1;
+   
+}
+
+.botones-video{
+    background-color: transparent; 
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(250, 249, 249, 0.5);
+}

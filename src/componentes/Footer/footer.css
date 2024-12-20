@@ -1,0 +1,19 @@
+.footer{
+    background-color: rgb(61, 60, 60);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid #2271D1; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.footer-title{
+    color: #2271D1;
+    padding: 10px;
+    
+
+
+}
