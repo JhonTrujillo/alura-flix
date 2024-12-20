@@ -1,7 +1,7 @@
 import './cardvideo.css'
 
 const Cardvideo = () => {
-    return <div className="card">
+    return <div className="card" >
                <div className="card-video">
                     <img src="./usuario.avif" alt="usuario" className='card-img'/>
                </div>
