@@ -1,0 +1,77 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(65, 62, 62);
+    width: 100%;
+}
+
+.formulario_title, .formulario_subtitle, .formulario_texto, .container_title, .container_label{
+    color: #FFF;
+}
+
+.formulario_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.container_uno, .container_dos, .container_tres, .container_cuatro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    /* border: 2px solid red; */
+    margin-top: 30px;
+}
+
+.container_subcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container_input{
+    width: 70%;
+    height: 30px;
+    background-color: rgb(65, 62, 62);
+    font-weight:600; 
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.container_botones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+}
+.boton_guardar{
+    background-color: black;
+    border: 2px solid #2271D1;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: #2271D1;
+   
+}
+
+.boton_limpiar{
+    background-color: transparent; 
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(250, 249, 249, 0.5);
+}
