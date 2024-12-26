@@ -8,16 +8,17 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
 
 function App() {
- 
+
 
   return (
     <div className="App">
-         <Router>
-          <Routes>
-           <Route path='/' element={<Home />}/>
-           <Route path='/nuevovideo' element={<Nuevovideo />}/> 
-          </Routes>
-         </Router>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/nuevovideo' element={<Nuevovideo />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

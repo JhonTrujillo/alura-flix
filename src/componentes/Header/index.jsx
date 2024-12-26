@@ -3,8 +3,8 @@ function Header(){
     return <div className="header">
                 <h1 className='header-title'>ALURAFLIX</h1>
                 <div className='header-botones'>
-                    <button className='botones-home'>Home</button>
-                    <button className='botones-video'>Nuevo video</button>
+                    <a href="./home"  className='botones-home'>Home</a>
+                    <a href="./nuevovideo"  className='botones-video'>Nuevo Video</a>
                 </div>
             </div>
 }
