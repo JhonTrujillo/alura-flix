@@ -2,6 +2,7 @@
  import Header from "../componentes/Header"
  import Footer from "../componentes/Footer"
  import Equipo from "../componentes/Equipo"
+import ModalZoom from "../componentes/ModalZoom"
 
 
   //Lista de Equipos
@@ -29,6 +30,7 @@ const Home = () => {
              return <Equipo datos={equipo} key={equipo.titulo}/>
             })
           } 
+          <ModalZoom />
         <Footer /> 
     </div> 
 }
