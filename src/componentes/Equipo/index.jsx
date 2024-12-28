@@ -7,11 +7,11 @@ const Equipo = (props) => {
         <h3 className='equipo-title' style={{backgroundColor: props.datos.colorprimario}}>{props.datos.titulo}</h3>
         <div className="equipo-card" >
            <Cardvideo />
+            {/* <Cardvideo />
             <Cardvideo />
             <Cardvideo />
             <Cardvideo />
-            <Cardvideo />
-            <Cardvideo />
+            <Cardvideo /> */}
         </div>
     </section>
 }
