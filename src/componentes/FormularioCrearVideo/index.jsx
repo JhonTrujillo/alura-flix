@@ -2,6 +2,7 @@ import CampoTexto from '../CampoTexto'
 import CampoTextArea from '../CampoTextArea'
 import CampoBotones from '../CampoBotones'
 import './FormularioCrearVideo.css'
+import ListaCategorias from '../ListaCategorias'
 
 const FormularioCrearVideo = () => {
     return <div className="formulario">
@@ -12,7 +13,7 @@ const FormularioCrearVideo = () => {
             <h2 className='container_title'>Crear Tarjeta</h2>
             <div className='container_uno'>
                 <CampoTexto titulo="Titulo" placeholder="Titulo Video" />
-                <CampoTexto titulo="Categoria" placeholder="Seleccione una categoria" />
+                <ListaCategorias titulo="Categorias"/>
             </div>
 
             <div className='container_dos'>
