@@ -1,15 +1,17 @@
-import FormularioCrearVideo from "../FormularioCrearVideo"
-import './ModalZoom.css'
+//  import FormularioCrearVideo from "../FormularioCrearVideo"
+//  import Cardvideo from "../Cardvideo"
+// import './ModalZoom.css'
 
+//Evento Modal
+// const ModalEditar = (event) => {
+//      console.log("Modal Editar", event)
+//      return <><dialog open={false}>
+//          <form method="dialog" className="modal">
+//              <h2>Modal</h2>
+//              <button>OK</button>
+//          </form>
+//      </dialog>
+//      </>
+// }
 
-const ModalZoom = () => {
-    console.log(ModalZoom);
-    // return <><dialog open>
-    //     <form method="dialog" className="modal">
-    //         <FormularioCrearVideo />
-    //         <button>OK</button>
-    //     </form>
-    // </dialog>
-    // </>
-}
-export default ModalZoom
+// export default ModalEditar

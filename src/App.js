@@ -6,10 +6,9 @@ import './App.css';
 import Nuevovideo from './pages/nuevovideo';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
+// import FormularioCrearVideo from './componentes/FormularioCrearVideo';
 
 function App() {
-
-
   return (
     <div className="App">
       <Router>
@@ -22,5 +21,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

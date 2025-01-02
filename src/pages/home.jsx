@@ -4,6 +4,10 @@
  import Equipo from "../componentes/Equipo"
 import ModalZoom from "../componentes/ModalZoom"
 
+   //Registrar video
+   const registrarvideo = (video) => {
+    console.log("Nuevo video", video)
+}
 
   //Lista de Equipos
 const equipos =[
@@ -27,10 +31,13 @@ const Home = () => {
         {
             equipos.map((equipo) => {
               // console.log("Equipo:", equipo)
-             return <Equipo datos={equipo} key={equipo.titulo}/>
+             return <Equipo datos={equipo} key={equipo.titulo}
+              registrarVideo={registrarvideo}
+             />
+             
             })
           } 
-          <ModalZoom />
+     
         <Footer /> 
     </div> 
 }

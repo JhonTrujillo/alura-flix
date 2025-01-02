@@ -1,5 +1,20 @@
-import ModalZoom from '../ModalZoom'
+// import ModalZoom from "../ModalZoom"
+import FormularioCrearVideo from '../FormularioCrearVideo'
 import './cardvideo.css'
+
+
+// //Evento Modal
+   const ModalEditar = (event) => {
+        console.log("Modal Editar")
+        return <><dialog open>
+            <form method="dialog" className="modal">
+                 <FormularioCrearVideo/>
+                <button>OK</button>
+            </form>
+       </dialog>
+       </>
+    }
+ 
 
 const Cardvideo = () => {
      return <div className="card" >
@@ -8,7 +23,7 @@ const Cardvideo = () => {
           </div>
           <div className='card-button'>
                <button className='button-borrar'>Borrar</button>
-               <button onClick={ModalZoom} className='button-editar'>Editar</button>
+               <button className='button-editar' onClick={ModalEditar}>Editar</button>
           </div>
      </div>
 }
