@@ -3,10 +3,12 @@ import './App.css';
 // import Banner from './componentes/Banner/index';
 // import Footer from './componentes/Footer';
 // import Equipo from './componentes/Equipo';
+
 import Nuevovideo from './pages/nuevovideo';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
-// import FormularioCrearVideo from './componentes/FormularioCrearVideo';
+import EditarVideo from './pages/editarVideo';
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
           <Route path='/nuevovideo' element={<Nuevovideo />} />
+         <Route path='/EditarVideo' element={<EditarVideo />} />
         </Routes>
       </Router>
     </div>

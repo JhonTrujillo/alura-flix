@@ -2,12 +2,12 @@
  import Header from "../componentes/Header"
  import Footer from "../componentes/Footer"
  import Equipo from "../componentes/Equipo"
-import ModalZoom from "../componentes/ModalZoom"
+// import ModalZoom from "../componentes/ModalZoom"
 
    //Registrar video
-   const registrarvideo = (video) => {
-    console.log("Nuevo video", video)
-}
+//    const registrarvideo = (video) => {
+//     console.log("Nuevo video", video)
+// }
 
   //Lista de Equipos
 const equipos =[
@@ -32,7 +32,7 @@ const Home = () => {
             equipos.map((equipo) => {
               // console.log("Equipo:", equipo)
              return <Equipo datos={equipo} key={equipo.titulo}
-              registrarVideo={registrarvideo}
+              // registrarVideo={registrarvideo}
              />
              
             })
